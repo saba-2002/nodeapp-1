@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: your-dockerhub-username/nodeapp:latest # Replace with your image
+        image: saba2002/nodeapp:latest # Replace with your image
         ports:
         - containerPort: 3000 # Port the Node.js app listens on
